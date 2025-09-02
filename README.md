@@ -51,6 +51,7 @@ Hospitality-Insights-Dashboard/
 ---
 
 ## 📸 Dashboard Preview 
-  ![Report] (https://github.com/drvsaxena/Hospitality-Insights-Dashboard/blob/main/Hospitality-Insights/Screenshots/hotels_report.png)
+![Report](https://github.com/drvsaxena/Hospitality-Insights-Dashboard/blob/main/Hospitality-Insights/Screenshots/hotels_report.png?raw=true)
+
 
 ---
