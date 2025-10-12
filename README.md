@@ -17,31 +17,6 @@
 
 ## 🎯 Business Problem
 
-<div align="center">
-
-```mermaid
-%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#EA4335','primaryTextColor':'#fff','primaryBorderColor':'#b71c1c','lineColor':'#F8B229','secondaryColor':'#4285F4','tertiaryColor':'#34A853'}}}%%
-graph LR
-    A[❌ Revenue Leakage] --> E[🏨 Dashboard]
-    B[❌ Poor Visibility] --> E
-    C[❌ Manual Reports] --> E
-    D[❌ No Benchmarking] --> E
-    E --> F[✅ Real-time Insights]
-    E --> G[✅ Automated Analytics]
-    E --> H[✅ Better Decisions]
-    
-    style A fill:#EA4335,stroke:#fff,stroke-width:2px,color:#fff
-    style B fill:#EA4335,stroke:#fff,stroke-width:2px,color:#fff
-    style C fill:#EA4335,stroke:#fff,stroke-width:2px,color:#fff
-    style D fill:#EA4335,stroke:#fff,stroke-width:2px,color:#fff
-    style E fill:#9334E9,stroke:#fff,stroke-width:3px,color:#fff
-    style F fill:#34A853,stroke:#fff,stroke-width:2px,color:#fff
-    style G fill:#34A853,stroke:#fff,stroke-width:2px,color:#fff
-    style H fill:#34A853,stroke:#fff,stroke-width:2px,color:#fff
-```
-
-</div>
-
 The hospitality industry struggles with:
 - ❌ Revenue leakage across multiple booking platforms
 - ❌ Lack of real-time occupancy insights
@@ -54,6 +29,28 @@ The hospitality industry struggles with:
 ---
 
 ## 📌 Objective
+
+<div align="center">
+
+```mermaid
+graph TB
+    A[📊 Raw Hotel Data] --> B{Power BI Dashboard}
+    B --> C[📈 Monitor KPIs]
+    B --> D[🏨 Compare Properties]
+    B --> E[📊 Analyze Trends]
+    B --> F[⭐ Track Satisfaction]
+    B --> G[💡 Data-Driven Decisions]
+    
+    style A fill:#667eea,stroke:#764ba2,stroke-width:3px,color:#fff
+    style B fill:#f093fb,stroke:#f5576c,stroke-width:4px,color:#000
+    style C fill:#4facfe,stroke:#00f2fe,stroke-width:2px,color:#fff
+    style D fill:#43e97b,stroke:#38f9d7,stroke-width:2px,color:#000
+    style E fill:#fa709a,stroke:#fee140,stroke-width:2px,color:#fff
+    style F fill:#30cfd0,stroke:#330867,stroke-width:2px,color:#fff
+    style G fill:#a8edea,stroke:#fed6e3,stroke-width:2px,color:#000
+```
+
+</div>
 
 Build a comprehensive analytics dashboard to:
 - 📈 Monitor key performance metrics (Revenue, RevPAR, ADR, Occupancy)
@@ -68,27 +65,34 @@ Build a comprehensive analytics dashboard to:
 
 <div align="center">
 
-```mermaid
-%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#4285F4','primaryTextColor':'#fff','primaryBorderColor':'#2a5298'}}}%%
-flowchart LR
-    A[📊 Power BI Desktop] --> E[📈 Dashboard]
-    B[🔄 Power Query] --> E
-    C[📐 DAX] --> E
-    D[🗄️ Data Modeling] --> E
-    
-    style A fill:#F2C811,stroke:#000,stroke-width:2px,color:#000
-    style B fill:#4285F4,stroke:#fff,stroke-width:2px,color:#fff
-    style C fill:#EE4C2C,stroke:#fff,stroke-width:2px,color:#fff
-    style D fill:#34A853,stroke:#fff,stroke-width:2px,color:#fff
-    style E fill:#9334E9,stroke:#fff,stroke-width:3px,color:#fff
-```
-
 | Tool | Purpose |
 |------|---------|
 | **Power BI Desktop** | Dashboard design & data visualization |
 | **Power Query** | Data transformation & ETL |
 | **DAX** | Advanced calculations & KPIs |
 | **Data Modeling** | Star schema implementation |
+
+<br>
+
+```mermaid
+journey
+    title Data Analytics Journey
+    section Data Collection
+      CSV Files: 5: Power Query
+      Excel Data: 5: Power Query
+    section Transformation
+      Clean Data: 4: Power Query
+      Transform: 5: Power Query
+    section Modeling
+      Star Schema: 5: Data Model
+      Relationships: 5: Data Model
+    section Analytics
+      DAX Measures: 5: DAX
+      KPIs: 5: DAX
+    section Visualization
+      Dashboard: 5: Power BI
+      Reports: 5: Power BI
+```
 
 </div>
 
@@ -105,9 +109,8 @@ flowchart LR
 </picture>
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#4285F4','primaryTextColor':'#fff','primaryBorderColor':'#2a5298','lineColor':'#F8B229','secondaryColor':'#EA4335','tertiaryColor':'#34A853'}}}%%
 mindmap
-  root((Dashboard))
+  root((🏨 Dashboard))
     KPI Tracking
       Revenue
       RevPAR
@@ -145,20 +148,21 @@ mindmap
 <div align="center">
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#4285F4','primaryTextColor':'#fff'}}}%%
-graph TD
-    A[📊 KPIs] --> B[💰 Revenue: ₹1.69B]
-    A --> C[📈 RevPAR: ₹7,337]
-    A --> D[🏨 Occupancy: 57.79%]
-    A --> E[💵 ADR: ₹12,696]
-    A --> F[✅ Realization: 70.14%]
-    
-    style A fill:#9334E9,stroke:#fff,stroke-width:3px,color:#fff
-    style B fill:#4285F4,stroke:#fff,stroke-width:2px,color:#fff
-    style C fill:#34A853,stroke:#fff,stroke-width:2px,color:#fff
-    style D fill:#FBBC04,stroke:#fff,stroke-width:2px,color:#000
-    style E fill:#EA4335,stroke:#fff,stroke-width:2px,color:#fff
-    style F fill:#FF6B6B,stroke:#fff,stroke-width:2px,color:#fff
+%%{init: {'theme':'default'}}%%
+quadrantChart
+    title KPI Performance Matrix
+    x-axis Low Impact --> High Impact
+    y-axis Low Performance --> High Performance
+    quadrant-1 Optimize
+    quadrant-2 Maintain
+    quadrant-3 Monitor
+    quadrant-4 Improve
+    Revenue: [0.85, 0.90]
+    RevPAR: [0.75, 0.70]
+    Occupancy: [0.60, 0.58]
+    ADR: [0.80, 0.85]
+    Realization: [0.70, 0.70]
+    DSRN: [0.50, 0.65]
 ```
 
 </div>
@@ -200,6 +204,16 @@ graph TD
 ╚══════════════════════════════════════════════════════╝
 ```
 
+```mermaid
+%%{init: {'theme':'forest'}}%%
+xychart-beta
+    title "Performance Metrics Overview"
+    x-axis [Revenue, Occupancy, ADR, RevPAR, Realization]
+    y-axis "Score (0-100)" 0 --> 100
+    bar [95, 58, 85, 73, 70]
+    line [90, 90, 90, 90, 90]
+```
+
 </div>
 
 **Business Impact:**
@@ -216,13 +230,27 @@ graph TD
 <div align="center">
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#4285F4'}}}%%
+%%{init: {'theme':'neutral'}}%%
 pie title Revenue Distribution by Booking Platform
-    "Direct Offline" : 40.91
-    "MakeYourTrip" : 19.85
-    "LogTrip" : 18.82
-    "Journey" : 10.34
-    "Direct Online" : 10.08
+    "Direct Offline 🏢" : 40.91
+    "MakeYourTrip ✈️" : 19.85
+    "LogTrip 🌐" : 18.82
+    "Journey 🚗" : 10.34
+    "Direct Online 💻" : 10.08
+```
+
+<br>
+
+```mermaid
+%%{init: {'theme':'base'}}%%
+sankey-beta
+
+Direct Offline,Revenue,691
+MakeYourTrip,Revenue,335
+LogTrip,Revenue,318
+Journey,Revenue,175
+Direct Online,Revenue,170
+Revenue,Total Revenue,1689
 ```
 
 </div>
@@ -236,6 +264,24 @@ pie title Revenue Distribution by Booking Platform
 ---
 
 ## 🚀 Future Enhancements
+
+<div align="center">
+
+```mermaid
+timeline
+    title Future Roadmap
+    section Q1 2025
+        Predictive Analytics : AI-based forecasting
+        Dynamic Pricing : Smart recommendations
+    section Q2 2025
+        Mobile Dashboard : Responsive design
+        Automated Alerts : Threshold notifications
+    section Q3 2025
+        Real-time Integration : Live PMS connection
+        Sentiment Analysis : NLP on reviews
+```
+
+</div>
 
 - [ ] 🤖 **Predictive Analytics**: AI-based occupancy forecasting
 - [ ] 💰 **Dynamic Pricing**: Smart rate recommendations
