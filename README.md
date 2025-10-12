@@ -186,7 +186,7 @@ Build a comprehensive analytics dashboard to:
 
 ### 🏨 Main Dashboard
 
-<img src="https://github.com/drvsaxena/Hospitality-Insights-Dashboard/blob/main/Hospitality-Insights/Screenshots/hotels_report.png?raw=true" width="900" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);"/>
+<img src="<img width="1460" height="806" alt="image" src="https://github.com/user-attachments/assets/c6727e27-0781-4144-8b3a-7b85d4d6d04c" />"
 
 <details>
 <summary><b>🔍 View Details</b></summary>
