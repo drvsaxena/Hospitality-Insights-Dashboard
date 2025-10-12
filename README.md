@@ -58,18 +58,32 @@ Build a comprehensive analytics dashboard to:
 
 <div align="center">
 
-```
-                                    🏨 DASHBOARD
-                                         │
-                    ┌────────────────────┼────────────────────┐
-                    │                    │                    │
-              📊 KPI TRACKING      📈 ANALYTICS        🎯 INTERACTIVITY
-                    │                    │                    │
-        ┌───────────┼───────────┐   ┌───┼────┐       ┌───────┼────────┐
-        │           │           │   │   │    │       │       │        │
-    Revenue     RevPAR    Occupancy% │  WoW  City   Dynamic Custom  Drill
-      ADR    Realization%           Trend Platform  Filters Tooltips through
-                                  Analysis Performance      Cross-filtering
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://via.placeholder.com/800x400/1e1e1e/ffffff?text=Dashboard+Features+Mindmap">
+  <source media="(prefers-color-scheme: light)" srcset="https://via.placeholder.com/800x400/ffffff/000000?text=Dashboard+Features+Mindmap">
+  <img alt="Dashboard Features" src="https://via.placeholder.com/800x400/ffffff/000000?text=Dashboard+Features+Mindmap">
+</picture>
+
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#4285F4','primaryTextColor':'#fff','primaryBorderColor':'#2a5298','lineColor':'#F8B229','secondaryColor':'#EA4335','tertiaryColor':'#34A853','background':'#ffffff','mainBkg':'#4285F4','secondBkg':'#EA4335','tertiaryBkg':'#34A853'}}}%%
+mindmap
+  root((Dashboard))
+    KPI Tracking
+      Revenue
+      RevPAR
+      Occupancy %
+      ADR
+      Realization %
+    Analytics
+      Trend Analysis
+      WoW Comparison
+      Platform Performance
+      City-wise Metrics
+    Interactivity
+      Dynamic Filters
+      Custom Tooltips
+      Drill-through
+      Cross-filtering
 ```
 
 <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="600">
