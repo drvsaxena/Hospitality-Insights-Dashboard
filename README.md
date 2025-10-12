@@ -2,6 +2,8 @@
 
 <div align="center">
 
+# 🏨 Hospitality Insights Dashboard
+
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-EE4C2C?style=for-the-badge&logo=dax&logoColor=white)
 
@@ -15,7 +17,11 @@
 
 ---
 
+<div align="center">
+
 ## 🎯 Business Problem
+
+</div>
 
 The hospitality industry struggles with:
 - ❌ Revenue leakage across multiple booking platforms
@@ -28,7 +34,11 @@ The hospitality industry struggles with:
 
 ---
 
+<div align="center">
+
 ## 📌 Objective
+
+</div>
 
 <div align="center">
 
@@ -61,7 +71,11 @@ Build a comprehensive analytics dashboard to:
 
 ---
 
+<div align="center">
+
 ## 🛠️ Tools & Technologies
+
+</div>
 
 <div align="center">
 
@@ -98,7 +112,11 @@ journey
 
 ---
 
+<div align="center">
+
 ## ✨ Key Features
+
+</div>
 
 <div align="center">
 
@@ -130,7 +148,11 @@ journey
 
 ---
 
+<div align="center">
+
 ## 📊 Key Performance Indicators
+
+</div>
 
 <div align="center">
 
@@ -153,7 +175,11 @@ journey
 
 ---
 
+<div align="center">
+
 ## 📸 Dashboard Preview
+
+</div>
 
 <div align="center">
 
@@ -165,7 +191,11 @@ journey
 
 ---
 
+<div align="center">
+
 ## 🏆 Key Achievements
+
+</div>
 
 <div align="center">
 
@@ -200,7 +230,11 @@ xychart-beta
 
 ---
 
+<div align="center">
+
 ## 💡 Key Insights
+
+</div>
 
 <div align="center">
 
@@ -224,7 +258,11 @@ pie title Revenue Distribution by Booking Platform
 
 ---
 
+<div align="center">
+
 ## 🚀 Future Enhancements
+
+</div>
 
 - [ ] 🤖 **Predictive Analytics**: AI-based occupancy forecasting
 - [ ] 💰 **Dynamic Pricing**: Smart rate recommendations
@@ -235,7 +273,11 @@ pie title Revenue Distribution by Booking Platform
 
 ---
 
+<div align="center">
+
 ## 📁 Project Structure
+
+</div>
 
 ```
 Hospitality-Insights-Dashboard/
