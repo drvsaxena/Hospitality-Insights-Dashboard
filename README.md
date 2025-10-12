@@ -58,6 +58,27 @@ Build a comprehensive analytics dashboard to:
 
 <div align="center">
 
+```mermaid
+mindmap
+  root((Dashboard))
+    KPI Tracking
+      Revenue
+      RevPAR
+      Occupancy %
+      ADR
+      Realization %
+    Analytics
+      Trend Analysis
+      WoW Comparison
+      Platform Performance
+      City-wise Metrics
+    Interactivity
+      Dynamic Filters
+      Custom Tooltips
+      Drill-through
+      Cross-filtering
+```
+
 <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="600">
 
 </div>
