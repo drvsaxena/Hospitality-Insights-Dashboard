@@ -1,27 +1,38 @@
-# 🏨 Hospitality Insights Dashboard
-
 <div align="center">
 
-# 🏨 Hospitality Insights Dashboard
+<!-- Header with Gradient -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hospitality%20Insights%20Dashboard&fontSize=45&fontColor=fff&animation=fadeIn&fontAlignY=35"/>
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-EE4C2C?style=for-the-badge&logo=dax&logoColor=white)
+<!-- Animated Typing SVG -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2E9EF7&center=true&vCenter=true&random=false&width=600&lines=Data-Driven+Hotel+Analytics;25%2B+Properties+Monitored;Real-Time+Performance+Tracking;134K%2B+Bookings+Analyzed" alt="Typing SVG" /></a>
 
-### *Data-Driven Hotel Performance Analytics*
+<br/>
+
+<!-- Tech Stack Badges -->
+<p>
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black&labelColor=1e1e1e" />
+  <img src="https://img.shields.io/badge/DAX-EE4C2C?style=for-the-badge&logo=microsoftexcel&logoColor=white&labelColor=1e1e1e" />
+  <img src="https://img.shields.io/badge/Power_Query-4285F4?style=for-the-badge&logo=microsoft&logoColor=white&labelColor=1e1e1e" />
+  <img src="https://img.shields.io/badge/Status-Active-00C851?style=for-the-badge&labelColor=1e1e1e" />
+</p>
+
+<!-- Description with Icons -->
+<p align="center">
+  <b>🏨 Hotel Performance Analytics | 📊 Multi-Dimensional Insights | ⚡ Real-Time Dashboard</b>
+</p>
 
 [📊 View Live Dashboard](https://bit.ly/3HQmRgy)
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
-
 </div>
 
----
+<br/>
 
-<div align="center">
+<!-- Fancy Separator -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## 🎯 Business Problem
+<br/>
 
-</div>
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28"> &nbsp;Business Problem
 
 The hospitality industry struggles with:
 - ❌ Revenue leakage across multiple booking platforms
@@ -32,13 +43,13 @@ The hospitality industry struggles with:
 
 **Solution**: An interactive Power BI dashboard that transforms raw hotel data into actionable business intelligence.
 
----
+<br/>
 
-<div align="center">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## 📌 Objective
+<br/>
 
-</div>
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> &nbsp;Project Objective
 
 <div align="center">
 
@@ -69,62 +80,52 @@ Build a comprehensive analytics dashboard to:
 - ⭐ Track guest satisfaction and ratings
 - 💡 Enable data-driven decision making for hotel management
 
----
+<br/>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<br/>
+
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> &nbsp;Tools & Technologies
 
 <div align="center">
 
-## 🛠️ Tools & Technologies
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/color/96/000000/power-bi.png" width="80"/><br/>
+<sub><b>Power BI Desktop</b></sub><br/>
+<sub>Dashboard Design</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/color/96/000000/data-configuration.png" width="80"/><br/>
+<sub><b>Power Query</b></sub><br/>
+<sub>Data Transformation</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/color/96/000000/analytics.png" width="80"/><br/>
+<sub><b>DAX</b></sub><br/>
+<sub>Advanced Calculations</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/color/96/000000/database.png" width="80"/><br/>
+<sub><b>Data Modeling</b></sub><br/>
+<sub>Star Schema</sub>
+</td>
+</tr>
+</table>
 
 </div>
 
-<div align="center">
+<br/>
 
-| Tool | Purpose |
-|------|---------|
-| **Power BI Desktop** | Dashboard design & data visualization |
-| **Power Query** | Data transformation & ETL |
-| **DAX** | Advanced calculations & KPIs |
-| **Data Modeling** | Star schema implementation |
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<br>
+<br/>
 
-```mermaid
-journey
-    title Data Analytics Journey
-    section Data Collection
-      CSV Files: 5: Power Query
-      Excel Data: 5: Power Query
-    section Transformation
-      Clean Data: 4: Power Query
-      Transform: 5: Power Query
-    section Modeling
-      Star Schema: 5: Data Model
-      Relationships: 5: Data Model
-    section Analytics
-      DAX Measures: 5: DAX
-      KPIs: 5: DAX
-    section Visualization
-      Dashboard: 5: Power BI
-      Reports: 5: Power BI
-```
-
-</div>
-
----
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> &nbsp;Key Features
 
 <div align="center">
-
-## ✨ Key Features
-
-</div>
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://via.placeholder.com/800x400/1e1e1e/ffffff?text=Dashboard+Features+Mindmap">
-  <source media="(prefers-color-scheme: light)" srcset="https://via.placeholder.com/800x400/ffffff/000000?text=Dashboard+Features+Mindmap">
-  <img alt="Dashboard Features" src="https://via.placeholder.com/800x400/ffffff/000000?text=Dashboard+Features+Mindmap">
-</picture>
 
 **Dashboard Feature Categories:**
 
@@ -146,13 +147,13 @@ journey
 - 📋 **Property Performance Matrix**: Detailed metrics for 25+ hotels
 - 💬 **Interactive Tooltips**: Contextual insights on hover
 
----
+<br/>
 
-<div align="center">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## 📊 Key Performance Indicators
+<br/>
 
-</div>
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> &nbsp;Key Performance Indicators
 
 <div align="center">
 
@@ -173,29 +174,42 @@ journey
 | **DSRN** | Daily Sellable Room Nights | Inventory metric |
 | **Realization %** | Revenue Realized ÷ Generated × 100 | Collection efficiency |
 
----
+<br/>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<br/>
+
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> &nbsp;Dashboard Preview
 
 <div align="center">
 
-## 📸 Dashboard Preview
+### 🏨 Main Dashboard
+
+<img src="https://github.com/drvsaxena/Hospitality-Insights-Dashboard/blob/main/Hospitality-Insights/Screenshots/hotels_report.png?raw=true" width="900" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);"/>
+
+<details>
+<summary><b>🔍 View Details</b></summary>
+<br/>
+  
+**Features:**
+- 🎯 6 Key KPI cards with WoW trends
+- 📊 Revenue distribution by platform
+- 📈 Occupancy & ADR trend lines
+- 🏨 Property performance table
+- 🔄 Multi-dimensional filtering
+
+</details>
 
 </div>
 
-<div align="center">
+<br/>
 
-![Main Dashboard](https://github.com/drvsaxena/Hospitality-Insights-Dashboard/blob/main/Hospitality-Insights/Screenshots/hotels_report.png?raw=true)
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
+<br/>
 
-</div>
-
----
-
-<div align="center">
-
-## 🏆 Key Achievements
-
-</div>
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> &nbsp;Key Achievements
 
 <div align="center">
 
@@ -203,7 +217,7 @@ journey
 ╔══════════════════════════════════════════════════════╗
 ║  💰  $1.69 Billion Revenue Analyzed                 ║
 ║  🏨  25+ Properties Monitored                       ║
-║  📊  100K+ Booking Records Processed                ║
+║  📊  134,590 Booking Records Processed              ║
 ║  ⚡  96% Reduction in Reporting Time                ║
 ║  📈  70.14% Average Realization Rate                ║
 ╚══════════════════════════════════════════════════════╝
@@ -228,13 +242,13 @@ xychart-beta
 ✅ Real-time guest satisfaction monitoring  
 ✅ Data-driven revenue management decisions  
 
----
+<br/>
 
-<div align="center">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## 💡 Key Insights
+<br/>
 
-</div>
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> &nbsp;Key Insights
 
 <div align="center">
 
@@ -256,13 +270,33 @@ pie title Revenue Distribution by Booking Platform
 - 📌 **70.14% Realization** shows room for payment improvement
 - 📌 **Delhi, Mumbai, Hyderabad, Bangalore** are key markets
 
----
+<br/>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<br/>
+
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> &nbsp;Business Impact
 
 <div align="center">
 
-## 🚀 Future Enhancements
+| 🎯 Metric | 📈 Achievement | 💡 Impact |
+|:----------|:---------------|:----------|
+| ⏱️ **Efficiency** | 96% faster reporting | Automated weekly reports |
+| 🎯 **Accuracy** | Real-time updates | Eliminated manual errors |
+| 💼 **Coverage** | 25+ properties | Complete portfolio view |
+| 📊 **KPIs** | 6 core metrics | Comprehensive tracking |
+| 👥 **Stakeholders** | Multi-department | Finance, Ops, Management |
 
 </div>
+
+<br/>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<br/>
+
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> &nbsp;Future Enhancements
 
 - [ ] 🤖 **Predictive Analytics**: AI-based occupancy forecasting
 - [ ] 💰 **Dynamic Pricing**: Smart rate recommendations
@@ -271,13 +305,13 @@ pie title Revenue Distribution by Booking Platform
 - [ ] 🌐 **Real-time Integration**: Live PMS data connection
 - [ ] 🎯 **Sentiment Analysis**: NLP on guest reviews
 
----
+<br/>
 
-<div align="center">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## 📁 Project Structure
+<br/>
 
-</div>
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> &nbsp;Project Structure
 
 ```
 Hospitality-Insights-Dashboard/
@@ -294,14 +328,42 @@ Hospitality-Insights-Dashboard/
 └── Hospitality.pbix                      # Power BI file
 ```
 
----
+<br/>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<br/>
+
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> &nbsp;Skills Demonstrated
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="400">
+<img src="https://img.icons8.com/color/96/000000/power-bi.png" width="80"/>
+<img src="https://img.icons8.com/color/96/000000/analytics.png" width="80"/>
+<img src="https://img.icons8.com/color/96/000000/data-configuration.png" width="80"/>
+
+<br/><br/>
+
+![Business Intelligence](https://img.shields.io/badge/Business_Intelligence-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Data Modeling](https://img.shields.io/badge/Data_Modeling-FF6B6B?style=flat-square&logo=databricks&logoColor=white)
+![DAX Programming](https://img.shields.io/badge/DAX_Programming-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Power Query](https://img.shields.io/badge/Power_Query-4285F4?style=flat-square&logo=microsoft&logoColor=white)
+![Data Visualization](https://img.shields.io/badge/Data_Visualization-4CAF50?style=flat-square&logo=tableau&logoColor=white)
+![ETL](https://img.shields.io/badge/ETL-9C27B0?style=flat-square&logo=apache&logoColor=white)
+
+</div>
+
+<br/>
+
+<!-- Footer Wave -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
+
+<div align="center">
+
+### 💙 Made with passion for Data Analytics & Hospitality Intelligence
+
+**⚡ Transforming hotel data into strategic decisions, one insight at a time ⚡**
 
 ### ⭐ Star this repo if you found it helpful!
-
-**Made with Power BI 💙 and DAX magic ✨**
 
 </div>
