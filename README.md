@@ -58,26 +58,7 @@ Build a comprehensive analytics dashboard to:
 
 <div align="center">
 
-```mermaid
-mindmap
-  root((Dashboard))
-    KPI Tracking
-      Revenue
-      RevPAR
-      Occupancy %
-      ADR
-      Realization %
-    Analytics
-      Trend Analysis
-      WoW Comparison
-      Platform Performance
-      City-wise Metrics
-    Interactivity
-      Dynamic Filters
-      Custom Tooltips
-      Drill-through
-      Cross-filtering
-```
+<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="600">
 
 </div>
 
@@ -181,41 +162,11 @@ Hospitality-Insights-Dashboard/
 
 ---
 
-## 🚀 How to Use
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/drvsaxena/Hospitality-Insights-Dashboard.git
-   ```
-
-2. **Open in Power BI Desktop**
-   - Launch Power BI Desktop
-   - Open `Hospitality.pbix`
-   - Click Refresh to load data
-
-3. **Explore the Dashboard**
-   - Use left-panel filters to slice data
-   - Hover over visuals for detailed insights
-   - Click charts for cross-filtering
-
-4. **View Online**
-   - 🌐 [Access Live Dashboard](https://bit.ly/3HQmRgy)
-
----
-
-## 👨‍💻 Contact
-
 <div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/drvsaxena)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="400">
 
 ### ⭐ Star this repo if you found it helpful!
-
-![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=drvsaxena.Hospitality-Insights-Dashboard)
 
 **Made with Power BI 💙 and DAX magic ✨**
 
