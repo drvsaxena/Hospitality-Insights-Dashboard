@@ -216,20 +216,6 @@ pie title Revenue Distribution by Booking Platform
     "Direct Online 💻" : 10.08
 ```
 
-<br>
-
-```mermaid
-%%{init: {'theme':'default', 'themeVariables': { 'fontSize':'18px'}}}%%
-sankey-beta
-
-%% Platform to Revenue Flow
-Direct Offline,Total Revenue,691
-MakeYourTrip,Total Revenue,335
-LogTrip,Total Revenue,318
-Journey,Total Revenue,175
-Direct Online,Total Revenue,170
-```
-
 </div>
 
 - 📌 **Direct Offline** drives 40.91% of revenue (highest channel)
