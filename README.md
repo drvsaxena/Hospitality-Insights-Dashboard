@@ -108,26 +108,15 @@ journey
   <img alt="Dashboard Features" src="https://via.placeholder.com/800x400/ffffff/000000?text=Dashboard+Features+Mindmap">
 </picture>
 
-```mermaid
-mindmap
-  root((🏨 Dashboard))
-    KPI Tracking
-      Revenue
-      RevPAR
-      Occupancy %
-      ADR
-      Realization %
-    Analytics
-      Trend Analysis
-      WoW Comparison
-      Platform Performance
-      City-wise Metrics
-    Interactivity
-      Dynamic Filters
-      Custom Tooltips
-      Drill-through
-      Cross-filtering
-```
+**Dashboard Feature Categories:**
+
+| 📊 KPI Tracking | 📉 Analytics | 🎨 Interactivity |
+|:---------------:|:------------:|:----------------:|
+| Revenue | Trend Analysis | Dynamic Filters |
+| RevPAR | WoW Comparison | Custom Tooltips |
+| Occupancy % | Platform Performance | Drill-through |
+| ADR | City-wise Metrics | Cross-filtering |
+| Realization % | Property Ranking | Responsive Design |
 
 <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="600">
 
@@ -147,25 +136,13 @@ mindmap
 
 <div align="center">
 
-```mermaid
-%%{init: {'theme':'default'}}%%
-quadrantChart
-    title KPI Performance Matrix
-    x-axis Low Impact --> High Impact
-    y-axis Low Performance --> High Performance
-    quadrant-1 Optimize
-    quadrant-2 Maintain
-    quadrant-3 Monitor
-    quadrant-4 Improve
-    Revenue: [0.85, 0.90]
-    RevPAR: [0.75, 0.70]
-    Occupancy: [0.60, 0.58]
-    ADR: [0.80, 0.85]
-    Realization: [0.70, 0.70]
-    DSRN: [0.50, 0.65]
-```
+| 💰 Revenue | 📈 RevPAR | 🏨 Occupancy % | 💵 ADR | ✅ Realization % | 📊 DSRN |
+|:----------:|:---------:|:--------------:|:------:|:----------------:|:-------:|
+| **₹1.69B** | **₹7,337** | **57.79%** | **₹12,696** | **70.14%** | **2,528** |
 
 </div>
+
+<br>
 
 | Metric | Formula | Insight |
 |--------|---------|---------|
