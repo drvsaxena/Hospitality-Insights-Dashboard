@@ -42,12 +42,12 @@ graph TB
     B --> G[💡 Data-Driven Decisions]
     
     style A fill:#667eea,stroke:#764ba2,stroke-width:3px,color:#fff
-    style B fill:#f093fb,stroke:#f5576c,stroke-width:4px,color:#000
+    style B fill:#f093fb,stroke:#f5576c,stroke-width:4px,color:#fff
     style C fill:#4facfe,stroke:#00f2fe,stroke-width:2px,color:#fff
-    style D fill:#43e97b,stroke:#38f9d7,stroke-width:2px,color:#000
+    style D fill:#43e97b,stroke:#38f9d7,stroke-width:2px,color:#fff
     style E fill:#fa709a,stroke:#fee140,stroke-width:2px,color:#fff
     style F fill:#30cfd0,stroke:#330867,stroke-width:2px,color:#fff
-    style G fill:#a8edea,stroke:#fed6e3,stroke-width:2px,color:#000
+    style G fill:#a8edea,stroke:#fed6e3,stroke-width:2px,color:#fff
 ```
 
 </div>
@@ -264,24 +264,6 @@ Revenue,Total Revenue,1689
 ---
 
 ## 🚀 Future Enhancements
-
-<div align="center">
-
-```mermaid
-timeline
-    title Future Roadmap
-    section Q1 2025
-        Predictive Analytics : AI-based forecasting
-        Dynamic Pricing : Smart recommendations
-    section Q2 2025
-        Mobile Dashboard : Responsive design
-        Automated Alerts : Threshold notifications
-    section Q3 2025
-        Real-time Integration : Live PMS connection
-        Sentiment Analysis : NLP on reviews
-```
-
-</div>
 
 - [ ] 🤖 **Predictive Analytics**: AI-based occupancy forecasting
 - [ ] 💰 **Dynamic Pricing**: Smart rate recommendations
