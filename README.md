@@ -219,15 +219,15 @@ pie title Revenue Distribution by Booking Platform
 <br>
 
 ```mermaid
-%%{init: {'theme':'base'}}%%
+%%{init: {'theme':'default', 'themeVariables': { 'fontSize':'18px'}}}%%
 sankey-beta
 
-Direct Offline,Revenue,691
-MakeYourTrip,Revenue,335
-LogTrip,Revenue,318
-Journey,Revenue,175
-Direct Online,Revenue,170
-Revenue,Total Revenue,1689
+%% Platform to Revenue Flow
+Direct Offline,Total Revenue,691
+MakeYourTrip,Total Revenue,335
+LogTrip,Total Revenue,318
+Journey,Total Revenue,175
+Direct Online,Total Revenue,170
 ```
 
 </div>
