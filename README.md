@@ -3,98 +3,54 @@
 <div align="center">
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![DAX](https://img.shields.io/badge/DAX-EE4C2C?style=for-the-badge&logo=dax&logoColor=white)
 
-### *Transforming Hotel Performance Data into Actionable Business Intelligence*
+### *Data-Driven Hotel Performance Analytics*
 
-[View Live Dashboard](https://bit.ly/3HQmRgy) • [Report Issues](#) • [Request Features](#)
+[📊 View Live Dashboard](https://bit.ly/3HQmRgy)
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 
 </div>
 
 ---
 
-## 📋 Table of Contents
-
-- [Business Problem](#-business-problem)
-- [Objective](#-objective)
-- [Tools & Technologies](#️-tools--technologies)
-- [Key Features](#-key-features)
-- [Data Architecture](#-data-architecture)
-- [Key Performance Indicators](#-key-performance-indicators)
-- [Dashboard Preview](#-dashboard-preview)
-- [Key Achievements](#-key-achievements)
-- [Insights Discovered](#-insights-discovered)
-- [Future Enhancements](#-future-enhancements)
-- [Project Structure](#-project-structure)
-- [How to Use](#-how-to-use)
-- [Contact](#-contact)
-
----
-
 ## 🎯 Business Problem
 
-The hospitality industry faces critical challenges in optimizing revenue and guest satisfaction:
+The hospitality industry struggles with:
+- ❌ Revenue leakage across multiple booking platforms
+- ❌ Lack of real-time occupancy insights
+- ❌ Poor visibility into guest satisfaction trends
+- ❌ Inefficient booking channel performance tracking
+- ❌ Limited competitive benchmarking capabilities
 
-- **Revenue Leakage**: Inability to track and optimize revenue across multiple booking platforms
-- **Occupancy Optimization**: Lack of visibility into occupancy patterns and trends
-- **Competitive Positioning**: Difficulty in benchmarking performance across properties and cities
-- **Guest Experience**: Limited insights into guest satisfaction and rating patterns
-- **Booking Channel Performance**: Unclear understanding of which platforms drive the most value
-- **Seasonal Variations**: Missing actionable insights on weekly and monthly performance trends
-
-**The Need**: A comprehensive analytics solution to empower hotel management with data-driven decision-making capabilities.
+**Solution**: An interactive Power BI dashboard that transforms raw hotel data into actionable business intelligence.
 
 ---
 
-## 🎯 Objective
+## 📌 Objective
 
-The primary objective of this project is to develop an **interactive Power BI dashboard** that enables hotel management to:
-
-✅ Monitor **real-time performance metrics** across all properties  
-✅ Analyze **revenue trends** and identify optimization opportunities  
-✅ Track **occupancy patterns** and forecast demand  
-✅ Evaluate **booking platform effectiveness** (OTA, Direct, Journey, etc.)  
-✅ Measure **guest satisfaction** through ratings and feedback  
-✅ Compare **property performance** across cities and categories  
-✅ Support **strategic decision-making** with actionable insights  
+Build a comprehensive analytics dashboard to:
+- 📈 Monitor key performance metrics (Revenue, RevPAR, ADR, Occupancy)
+- 🏨 Compare property performance across cities
+- 📊 Analyze booking trends and platform effectiveness
+- ⭐ Track guest satisfaction and ratings
+- 💡 Enable data-driven decision making for hotel management
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-<table>
-<tr>
-<td align="center" width="25%">
-<img src="https://cdn.worldvectorlogo.com/logos/power-bi.svg" width="80" height="80"/><br>
-<b>Power BI Desktop</b><br>
-<sub>Dashboard Development</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://cdn.worldvectorlogo.com/logos/microsoft-excel-2013.svg" width="80" height="80"/><br>
-<b>Microsoft Excel</b><br>
-<sub>Data Preparation</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://www.sqlbi.com/wp-content/uploads/dax-1.png" width="80" height="80"/><br>
-<b>DAX</b><br>
-<sub>Calculations & Measures</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://powerquery.microsoft.com/images/PowerQuery_color.png" width="80" height="80"/><br>
-<b>Power Query</b><br>
-<sub>ETL Operations</sub>
-</td>
-</tr>
-</table>
+<div align="center">
 
-### Technical Stack Details:
+| Tool | Purpose |
+|------|---------|
+| **Power BI Desktop** | Dashboard design & data visualization |
+| **Power Query** | Data transformation & ETL |
+| **DAX** | Advanced calculations & KPIs |
+| **Data Modeling** | Star schema implementation |
 
-- **Power BI Desktop**: Data visualization, interactive reporting, and dashboard design
-- **Power Query (M Language)**: Data extraction, transformation, and loading (ETL)
-- **DAX (Data Analysis Expressions)**: Creating calculated columns, measures, and KPIs
-- **Data Modeling**: Star schema implementation with fact and dimension tables
-- **CSV/Excel**: Source data management and metrics documentation
+</div>
 
 ---
 
@@ -103,207 +59,60 @@ The primary objective of this project is to develop an **interactive Power BI da
 <div align="center">
 
 ```mermaid
-graph LR
-    A[📊 Interactive Dashboards] --> B[Real-time KPI Tracking]
-    A --> C[Dynamic Filtering]
-    A --> D[Drill-through Analysis]
-    
-    E[📈 Advanced Analytics] --> F[Trend Analysis]
-    E --> G[Comparative Metrics]
-    E --> H[Performance Forecasting]
-    
-    I[🎨 User Experience] --> J[Responsive Design]
-    I --> K[Custom Tooltips]
-    I --> L[Visual Interactivity]
-    
-    style A fill:#4285F4
-    style E fill:#EA4335
-    style I fill:#FBBC04
+mindmap
+  root((Dashboard))
+    KPI Tracking
+      Revenue
+      RevPAR
+      Occupancy %
+      ADR
+      Realization %
+    Analytics
+      Trend Analysis
+      WoW Comparison
+      Platform Performance
+      City-wise Metrics
+    Interactivity
+      Dynamic Filters
+      Custom Tooltips
+      Drill-through
+      Cross-filtering
 ```
 
 </div>
 
-### Core Capabilities:
-
-🔹 **Multi-dimensional Analysis**
-- Property-level performance comparison
-- City-wise revenue distribution
-- Platform-based booking analysis
-- Week-over-week trend monitoring
-
-🔹 **Dynamic Filtering System**
-- Filter by Property, City, Status, Platform, Month, and Week
-- Cross-filtering across all visuals
-- Synchronized insights across metrics
-
-🔹 **Interactive Visualizations**
-- KPI cards with variance indicators
-- Donut charts for platform distribution
-- Line charts for trend analysis
-- Matrix tables for detailed breakdowns
-- Custom tooltips for contextual information
-
-🔹 **Performance Metrics**
-- Revenue tracking and forecasting
-- Occupancy percentage monitoring
-- ADR (Average Daily Rate) analysis
-- RevPAR (Revenue per Available Room)
-- Realization percentage tracking
-- Guest rating analytics
-
----
-
-## 🗄️ Data Architecture
-
-```mermaid
-erDiagram
-    DIM_DATE ||--o{ FACT_BOOKINGS : "has"
-    DIM_DATE ||--o{ FACT_AGG_BOOKINGS : "has"
-    DIM_HOTELS ||--o{ FACT_BOOKINGS : "belongs_to"
-    DIM_HOTELS ||--o{ FACT_AGG_BOOKINGS : "belongs_to"
-    DIM_ROOMS ||--o{ FACT_BOOKINGS : "booked_for"
-    DIM_ROOMS ||--o{ FACT_AGG_BOOKINGS : "aggregated_for"
-    
-    DIM_DATE {
-        date date
-        mmm_yy string
-        week_no int
-        day_type string
-    }
-    
-    DIM_HOTELS {
-        property_id string
-        property_name string
-        category string
-        city string
-    }
-    
-    DIM_ROOMS {
-        room_id string
-        room_class string
-    }
-    
-    FACT_BOOKINGS {
-        booking_id string
-        property_id string
-        booking_date date
-        check_in_date date
-        checkout_date date
-        no_guests int
-        room_category string
-        booking_platform string
-        ratings_given decimal
-        booking_status string
-        revenue_generated decimal
-        revenue_realized decimal
-    }
-    
-    FACT_AGG_BOOKINGS {
-        property_id string
-        check_in_date date
-        room_category string
-        successful_bookings int
-        capacity int
-    }
-```
-
-### Data Model Structure:
-
-**Dimension Tables:**
-- `dim_date.csv` - Date dimension with week numbers and day types
-- `dim_hotels.csv` - Property details including category and location
-- `dim_rooms.csv` - Room classification and categories
-
-**Fact Tables:**
-- `fact_bookings.csv` - Detailed transactional booking records
-- `fact_aggregated_bookings.csv` - Pre-aggregated booking metrics
-
-**Metrics Documentation:**
-- `metrics_list.xlsx` - KPI definitions and calculation formulas
+**Core Capabilities:**
+- 🎯 **6 Key KPI Cards** with week-on-week change indicators
+- 🗓️ **Multi-dimensional Filters**: Property, City, Platform, Month, Week
+- 📊 **Revenue Distribution**: Platform-wise breakdown with donut chart
+- 📈 **Trend Analysis**: Occupancy & ADR trends over time
+- 📋 **Property Performance Matrix**: Detailed metrics for 25+ hotels
+- 💬 **Interactive Tooltips**: Contextual insights on hover
 
 ---
 
 ## 📊 Key Performance Indicators
 
-### Primary Metrics
-
-| Metric | Formula | Business Value |
-|--------|---------|----------------|
-| **Revenue** | Sum of revenue_realized | Total actual earnings from bookings |
-| **RevPAR** | Revenue ÷ Total Available Rooms | Revenue efficiency per room |
-| **DSRN** | Total Nights Sold | Inventory utilization metric |
-| **Occupancy %** | Rooms Sold ÷ Total Rooms × 100 | Capacity utilization rate |
-| **ADR** | Revenue ÷ Rooms Booked | Average price per room |
-| **DBRN** | Total Rooms Booked | Booking volume indicator |
-| **DURN** | Rooms Actually Utilized | Actual usage metric |
-| **Realization %** | Revenue Realized ÷ Revenue Generated × 100 | Payment collection efficiency |
-| **Cancellation %** | Cancelled Bookings ÷ Total Bookings × 100 | Booking stability metric |
-| **Average Rating** | Average of ratings_given | Guest satisfaction index |
-
-### Supporting Metrics
-
-```
-┌─────────────────────────────────────────────────────────┐
-│  WoW Change %    = (Current Week - Previous Week) ÷     │
-│                    Previous Week × 100                   │
-│                                                          │
-│  Revenue by      = Revenue grouped by booking_platform  │
-│  Platform                                               │
-│                                                          │
-│  Property        = Aggregated metrics at property level │
-│  Performance                                            │
-└─────────────────────────────────────────────────────────┘
-```
+| Metric | Formula | Insight |
+|--------|---------|---------|
+| **Revenue** | Sum(revenue_realized) | Total earnings |
+| **RevPAR** | Revenue ÷ Available Rooms | Revenue efficiency |
+| **Occupancy %** | Rooms Sold ÷ Total Rooms × 100 | Capacity utilization |
+| **ADR** | Revenue ÷ Rooms Booked | Average room rate |
+| **DSRN** | Daily Sellable Room Nights | Inventory metric |
+| **Realization %** | Revenue Realized ÷ Generated × 100 | Collection efficiency |
 
 ---
 
 ## 📸 Dashboard Preview
 
-### Main Dashboard
+<div align="center">
+
 ![Main Dashboard](https://github.com/drvsaxena/Hospitality-Insights-Dashboard/blob/main/Hospitality-Insights/Screenshots/hotels_report.png?raw=true)
 
-### Interactive Tooltips
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
 
-<table>
-<tr>
-<td width="50%">
-
-**ADR Breakdown**  
-![ADR Tooltip](https://github.com/drvsaxena/Hospitality-Insights-Dashboard/blob/main/Hospitality-Insights/Screenshots/tooltip_ADR.png?raw=true)
-
-</td>
-<td width="50%">
-
-**Occupancy Metrics**  
-![Occupancy Tooltip](https://github.com/drvsaxena/Hospitality-Insights-Dashboard/blob/main/Hospitality-Insights/Screenshots/tooltip_occupancy.png?raw=true)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**Revenue Analysis**  
-![Revenue Tooltip](https://github.com/drvsaxena/Hospitality-Insights-Dashboard/blob/main/Hospitality-Insights/Screenshots/tooltip_revenue.png?raw=true)
-
-</td>
-<td width="50%">
-
-**RevPAR Performance**  
-![RevPAR Tooltip](https://github.com/drvsaxena/Hospitality-Insights-Dashboard/blob/main/Hospitality-Insights/Screenshots/tooltip_revPAR.png?raw=true)
-
-</td>
-</tr>
-<tr>
-<td colspan="2">
-
-**Realization Metrics**  
-<div align="center">
-<img src="https://github.com/drvsaxena/Hospitality-Insights-Dashboard/blob/main/Hospitality-Insights/Screenshots/tooltip_realization.png?raw=true" width="50%">
 </div>
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -311,121 +120,45 @@ erDiagram
 
 <div align="center">
 
-### 📈 Business Impact
+```
+╔══════════════════════════════════════════════════════╗
+║  💰  $1.69 Billion Revenue Analyzed                 ║
+║  🏨  25+ Properties Monitored                       ║
+║  📊  100K+ Booking Records Processed                ║
+║  ⚡  96% Reduction in Reporting Time                ║
+║  📈  70.14% Average Realization Rate                ║
+╚══════════════════════════════════════════════════════╝
+```
 
 </div>
 
-```
-╔════════════════════════════════════════════════════════════════╗
-║  💰  Revenue Tracking        $1.69 Billion Analyzed           ║
-║  🏨  Properties Monitored    25+ Hotels Across Multiple Cities ║
-║  📊  Data Points Processed   100,000+ Booking Records          ║
-║  📅  Historical Coverage     52+ Weeks of Performance Data     ║
-║  ⭐  Rating Analysis         10,000+ Guest Reviews Analyzed    ║
-╚════════════════════════════════════════════════════════════════╝
-```
-
-### Technical Achievements
-
-✅ **Data Integration**: Successfully integrated 5 data sources into a unified star schema  
-✅ **Performance Optimization**: Achieved <2 second dashboard load time through data modeling  
-✅ **DAX Mastery**: Implemented 30+ complex measures for advanced analytics  
-✅ **User Adoption**: Designed intuitive interface requiring minimal training  
-✅ **Automation**: Enabled automated weekly performance reporting  
-✅ **Scalability**: Built flexible architecture supporting future property additions  
-
-### Business Outcomes
-
-📌 **Operational Efficiency**: Reduced reporting time from 4 hours to 10 minutes (96% reduction)  
-📌 **Revenue Optimization**: Identified underperforming properties for targeted improvements  
-📌 **Platform Strategy**: Revealed booking channel performance for marketing optimization  
-📌 **Guest Experience**: Enabled proactive reputation management through rating analysis  
-📌 **Capacity Planning**: Supported demand forecasting with occupancy trend analysis  
+**Business Impact:**
+✅ Reduced manual reporting from 4 hours to 10 minutes  
+✅ Identified underperforming properties for optimization  
+✅ Enabled platform-wise booking strategy  
+✅ Real-time guest satisfaction monitoring  
+✅ Data-driven revenue management decisions  
 
 ---
 
-## 💡 Insights Discovered
+## 💡 Key Insights
 
-### 🎯 Revenue & Platform Analysis
-
-- **Direct Offline bookings** dominate with **40.91%** of total revenue
-- **Journey platform** contributes significantly at **19.97%**
-- **Log trip** and **MakeYourTrip** each represent **~11%** of revenue
-
-### 📊 Performance Metrics
-
-- **Average Occupancy**: 57.79% across all properties
-- **RevPAR**: ₹7,337 indicating strong revenue per available room
-- **ADR**: ₹12,696 showing premium pricing strategy
-- **Realization Rate**: 70.14% suggesting scope for payment collection improvement
-
-### 🏙️ Geographic Insights
-
-Hotels span across major metropolitan areas:
-- **Delhi**: High-volume urban market
-- **Mumbai**: Premium pricing segment
-- **Hyderabad**: Growing business travel hub
-- **Bangalore**: Tech sector-driven demand
-
-### 📈 Trend Observations
-
-- **Week-on-week variability** in occupancy and revenue
-- **Seasonal patterns** visible in booking trends
-- **Property-specific performance** variations requiring targeted strategies
-- **Platform effectiveness** differs across property categories
+- 📌 **Direct Offline** drives 40.91% of revenue (highest channel)
+- 📌 **57.79% Average Occupancy** across all properties
+- 📌 **₹12,696 ADR** indicates premium positioning
+- 📌 **70.14% Realization** shows room for payment improvement
+- 📌 **Delhi, Mumbai, Hyderabad, Bangalore** are key markets
 
 ---
 
 ## 🚀 Future Enhancements
 
-### Phase 1: Advanced Analytics (Q2 2024)
-
-```mermaid
-graph TD
-    A[🤖 Predictive Analytics] --> B[Demand Forecasting]
-    A --> C[Dynamic Pricing Model]
-    A --> D[Occupancy Prediction]
-    
-    E[🎯 AI Integration] --> F[Sentiment Analysis]
-    E --> G[Recommendation Engine]
-    E --> H[Anomaly Detection]
-    
-    style A fill:#4285F4
-    style E fill:#EA4335
-```
-
-**Planned Features:**
-
-- [ ] **Predictive Occupancy Model**: ML-based forecasting for next 4 weeks
-- [ ] **Dynamic Pricing Recommendations**: AI-driven optimal rate suggestions
-- [ ] **Guest Sentiment Analysis**: NLP on review text for deeper insights
-- [ ] **Competitor Benchmarking**: Market positioning analysis
-- [ ] **Automated Alerts**: Threshold-based performance notifications
-
-### Phase 2: Integration & Automation (Q3 2024)
-
-- [ ] **Real-time Data Pipeline**: Direct integration with PMS systems
-- [ ] **Mobile Dashboard**: Responsive design for on-the-go access
-- [ ] **Automated Report Distribution**: Scheduled email reports to stakeholders
-- [ ] **API Development**: RESTful API for third-party integrations
-- [ ] **Custom Alerts System**: Configurable triggers for performance thresholds
-
-### Phase 3: Advanced Features (Q4 2024)
-
-- [ ] **Cohort Analysis**: Guest behavior patterns over time
-- [ ] **Channel Attribution**: Multi-touch booking journey analysis
-- [ ] **Staff Performance Metrics**: Service quality correlations
-- [ ] **Event Impact Analysis**: Local events effect on bookings
-- [ ] **Sustainability Metrics**: ESG reporting dashboard
-- [ ] **Voice-Activated Queries**: Natural language dashboard interaction
-
-### Phase 4: Expansion (2025)
-
-- [ ] **Multi-language Support**: International property management
-- [ ] **Currency Conversion**: Multi-currency revenue tracking
-- [ ] **Advanced Segmentation**: RFM analysis for guest targeting
-- [ ] **Social Media Integration**: Online reputation monitoring
-- [ ] **Blockchain Integration**: Transparent booking records
+- [ ] 🤖 **Predictive Analytics**: AI-based occupancy forecasting
+- [ ] 💰 **Dynamic Pricing**: Smart rate recommendations
+- [ ] 📱 **Mobile Dashboard**: Responsive design for on-the-go
+- [ ] 🔔 **Automated Alerts**: Performance threshold notifications
+- [ ] 🌐 **Real-time Integration**: Live PMS data connection
+- [ ] 🎯 **Sentiment Analysis**: NLP on guest reviews
 
 ---
 
@@ -433,131 +166,40 @@ graph TD
 
 ```
 Hospitality-Insights-Dashboard/
-│
-├── 📂 Data/
-│   ├── 📄 dim_date.csv                      # Date dimension with week/day attributes
-│   ├── 📄 dim_hotels.csv                    # Property master data
-│   ├── 📄 dim_rooms.csv                     # Room classification data
-│   ├── 📄 fact_aggregated_bookings.csv      # Pre-aggregated booking metrics
-│   ├── 📄 fact_bookings.csv                 # Granular booking transactions
-│   └── 📄 metrics_list.xlsx                 # KPI definitions & formulas
-│
-├── 📂 Screenshots/
-│   ├── 🖼️ hotels_report.png                 # Main dashboard view
-│   ├── 🖼️ tooltip_ADR.png                   # Average Daily Rate tooltip
-│   ├── 🖼️ tooltip_occupancy.png             # Occupancy metrics tooltip
-│   ├── 🖼️ tooltip_realization.png           # Realization percentage tooltip
-│   ├── 🖼️ tooltip_revenue.png               # Revenue breakdown tooltip
-│   └── 🖼️ tooltip_revPAR.png                # RevPAR analysis tooltip
-│
-├── 📊 Hospitality.pbix                       # Power BI project file
-│
-├── 📖 README.md                              # Project documentation (this file)
-│
-└── 📋 CHANGELOG.md                           # Version history (optional)
+├── Data/
+│   ├── dim_date.csv                      # Date dimension
+│   ├── dim_hotels.csv                    # Property data
+│   ├── dim_rooms.csv                     # Room types
+│   ├── fact_bookings.csv                 # Booking transactions
+│   ├── fact_aggregated_bookings.csv      # Aggregated metrics
+│   └── metrics_list.xlsx                 # KPI definitions
+├── Screenshots/
+│   ├── hotels_report.png                 # Main dashboard
+│   └── tooltip_*.png                     # Interactive tooltips
+└── Hospitality.pbix                      # Power BI file
 ```
-
-### File Descriptions
-
-| File | Description | Size |
-|------|-------------|------|
-| `dim_date.csv` | Calendar dimension with week numbers, day types | ~52 rows |
-| `dim_hotels.csv` | Hotel properties with location, category | ~25 rows |
-| `dim_rooms.csv` | Room type classifications | ~4 rows |
-| `fact_bookings.csv` | Detailed booking transactions | 100K+ rows |
-| `fact_aggregated_bookings.csv` | Daily aggregated metrics | 10K+ rows |
-| `metrics_list.xlsx` | Business metrics documentation | Reference |
-| `Hospitality.pbix` | Main Power BI dashboard | ~15 MB |
 
 ---
 
 ## 🚀 How to Use
 
-### Prerequisites
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/drvsaxena/Hospitality-Insights-Dashboard.git
+   ```
 
-Before you begin, ensure you have the following installed:
+2. **Open in Power BI Desktop**
+   - Launch Power BI Desktop
+   - Open `Hospitality.pbix`
+   - Click Refresh to load data
 
-- **Power BI Desktop** (Latest version recommended)
-  - [Download Power BI Desktop](https://powerbi.microsoft.com/desktop/)
-- **Microsoft Excel** (For viewing metrics documentation)
-- **Web Browser** (For viewing online dashboard)
+3. **Explore the Dashboard**
+   - Use left-panel filters to slice data
+   - Hover over visuals for detailed insights
+   - Click charts for cross-filtering
 
-### Installation Steps
-
-1️⃣ **Clone the Repository**
-
-```bash
-git clone https://github.com/drvsaxena/Hospitality-Insights-Dashboard.git
-cd Hospitality-Insights-Dashboard
-```
-
-2️⃣ **Open Power BI File**
-
-```bash
-# Navigate to the project directory
-cd Hospitality-Insights-Dashboard
-
-# Open the .pbix file with Power BI Desktop
-start Hospitality.pbix
-```
-
-3️⃣ **Refresh Data** (If needed)
-
-- Open Power BI Desktop
-- Go to `Home` → `Refresh`
-- Ensure all data sources are properly connected
-
-4️⃣ **Explore the Dashboard**
-
-- Use filters on the left panel to slice data
-- Hover over visuals for detailed tooltips
-- Click on charts for cross-filtering
-- Use drill-through for detailed analysis
-
-### 🌐 Online Access
-
-Access the live dashboard without installation:
-
-👉 **[View Live Dashboard](https://bit.ly/3HQmRgy)**
-
-### Dashboard Navigation Guide
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│  🎛️  FILTERS PANEL (Left)                                   │
-│  ├── Property: Select specific hotels                       │
-│  ├── City: Filter by location                              │
-│  ├── Status: Booking status filter                         │
-│  ├── Platform: Booking source filter                       │
-│  ├── Month: Time period selection                          │
-│  └── Week: Weekly granularity                              │
-│                                                             │
-│  📊  KPI CARDS (Top)                                        │
-│  ├── Revenue: Total revenue with WoW change                │
-│  ├── RevPAR: Revenue per available room                    │
-│  ├── DSRN: Daily sellable room nights                      │
-│  ├── Occupancy %: Capacity utilization                     │
-│  ├── ADR: Average daily rate                               │
-│  └── Realization %: Payment collection rate                │
-│                                                             │
-│  📈  VISUALIZATIONS (Center & Right)                        │
-│  ├── Revenue by Platform: Donut chart                      │
-│  ├── Trend Analysis: Line charts                           │
-│  ├── Property Metrics: Detailed matrix table               │
-│  └── Booking Platform Analysis: Combined chart             │
-└─────────────────────────────────────────────────────────────┘
-```
-
-### Troubleshooting
-
-**Issue**: Data not loading  
-**Solution**: Check if CSV files are in the correct `Data/` folder
-
-**Issue**: Measures showing errors  
-**Solution**: Refresh data connections via `Transform data` → `Data source settings`
-
-**Issue**: Slow performance  
-**Solution**: Close other applications and ensure adequate RAM (8GB+ recommended)
+4. **View Online**
+   - 🌐 [Access Live Dashboard](https://bit.ly/3HQmRgy)
 
 ---
 
@@ -565,56 +207,16 @@ Access the live dashboard without installation:
 
 <div align="center">
 
-### Created with ❤️ by [Your Name]
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/drvsaxena)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](YOUR_PORTFOLIO_URL)
 
-</div>
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="400">
 
----
-
-<div align="center">
-
-### 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-### ⭐ Show Your Support
-
-If you found this project helpful, please consider giving it a star!
-
-[![Star on GitHub](https://img.shields.io/github/stars/drvsaxena/Hospitality-Insights-Dashboard?style=social)](https://github.com/drvsaxena/Hospitality-Insights-Dashboard)
-
----
-
-**Last Updated**: October 2025  
-**Version**: 1.0.0  
-**Status**: Active Development 🚀
-
-</div>
-
----
-
-<div align="center">
-
-### 🙏 Acknowledgments
-
-Special thanks to:
-- **Power BI Community** for inspiration and best practices
-- **Hotel Management Teams** for providing business context
-- **Data Analytics Community** for feedback and suggestions
-
-</div>
-
----
-
-<div align="center">
+### ⭐ Star this repo if you found it helpful!
 
 ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=drvsaxena.Hospitality-Insights-Dashboard)
 
-**Made with Power BI, DAX, and lots of ☕**
+**Made with Power BI 💙 and DAX magic ✨**
 
 </div>
