@@ -186,18 +186,18 @@ Build a comprehensive analytics dashboard to:
 
 ### 🏨 Main Dashboard
 
-<img src="<img width="1460" height="806" alt="image" src="https://github.com/user-attachments/assets/c6727e27-0781-4144-8b3a-7b85d4d6d04c" />"
+<img src=width="1460" height="806" alt="image" src="https://github.com/user-attachments/assets/c6727e27-0781-4144-8b3a-7b85d4d6d04c"
 
 <details>
 <summary><b>🔍 View Details</b></summary>
 <br/>
   
 **Features:**
-- 🎯 6 Key KPI cards with WoW trends
-- 📊 Revenue distribution by platform
-- 📈 Occupancy & ADR trend lines
-- 🏨 Property performance table
-- 🔄 Multi-dimensional filtering
+🎯 6 Key KPI cards with WoW trends
+📊 Revenue distribution by platform
+📈 Occupancy & ADR trend lines
+🏨 Property performance table
+🔄 Multi-dimensional filtering
 
 </details>
 
