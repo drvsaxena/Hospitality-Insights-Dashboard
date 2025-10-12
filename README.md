@@ -4,7 +4,6 @@
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-EE4C2C?style=for-the-badge&logo=dax&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 
 ### *Data-Driven Hotel Performance Analytics*
 
@@ -18,7 +17,30 @@
 
 ## 🎯 Business Problem
 
-<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223156-143a1241-6cbb-46b7-bb54-158b57b84ff2.gif">
+<div align="center">
+
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#EA4335','primaryTextColor':'#fff','primaryBorderColor':'#b71c1c','lineColor':'#F8B229','secondaryColor':'#4285F4','tertiaryColor':'#34A853'}}}%%
+graph LR
+    A[❌ Revenue Leakage] --> E[🏨 Dashboard]
+    B[❌ Poor Visibility] --> E
+    C[❌ Manual Reports] --> E
+    D[❌ No Benchmarking] --> E
+    E --> F[✅ Real-time Insights]
+    E --> G[✅ Automated Analytics]
+    E --> H[✅ Better Decisions]
+    
+    style A fill:#EA4335,stroke:#fff,stroke-width:2px,color:#fff
+    style B fill:#EA4335,stroke:#fff,stroke-width:2px,color:#fff
+    style C fill:#EA4335,stroke:#fff,stroke-width:2px,color:#fff
+    style D fill:#EA4335,stroke:#fff,stroke-width:2px,color:#fff
+    style E fill:#9334E9,stroke:#fff,stroke-width:3px,color:#fff
+    style F fill:#34A853,stroke:#fff,stroke-width:2px,color:#fff
+    style G fill:#34A853,stroke:#fff,stroke-width:2px,color:#fff
+    style H fill:#34A853,stroke:#fff,stroke-width:2px,color:#fff
+```
+
+</div>
 
 The hospitality industry struggles with:
 - ❌ Revenue leakage across multiple booking platforms
@@ -29,17 +51,9 @@ The hospitality industry struggles with:
 
 **Solution**: An interactive Power BI dashboard that transforms raw hotel data into actionable business intelligence.
 
-<br clear="right"/>
-
 ---
 
 ## 📌 Objective
-
-<div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100">
-
-</div>
 
 Build a comprehensive analytics dashboard to:
 - 📈 Monitor key performance metrics (Revenue, RevPAR, ADR, Occupancy)
@@ -54,7 +68,20 @@ Build a comprehensive analytics dashboard to:
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100">
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#4285F4','primaryTextColor':'#fff','primaryBorderColor':'#2a5298'}}}%%
+flowchart LR
+    A[📊 Power BI Desktop] --> E[📈 Dashboard]
+    B[🔄 Power Query] --> E
+    C[📐 DAX] --> E
+    D[🗄️ Data Modeling] --> E
+    
+    style A fill:#F2C811,stroke:#000,stroke-width:2px,color:#000
+    style B fill:#4285F4,stroke:#fff,stroke-width:2px,color:#fff
+    style C fill:#EE4C2C,stroke:#fff,stroke-width:2px,color:#fff
+    style D fill:#34A853,stroke:#fff,stroke-width:2px,color:#fff
+    style E fill:#9334E9,stroke:#fff,stroke-width:3px,color:#fff
+```
 
 | Tool | Purpose |
 |------|---------|
@@ -71,10 +98,14 @@ Build a comprehensive analytics dashboard to:
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://via.placeholder.com/800x400/1e1e1e/ffffff?text=Dashboard+Features+Mindmap">
+  <source media="(prefers-color-scheme: light)" srcset="https://via.placeholder.com/800x400/ffffff/000000?text=Dashboard+Features+Mindmap">
+  <img alt="Dashboard Features" src="https://via.placeholder.com/800x400/ffffff/000000?text=Dashboard+Features+Mindmap">
+</picture>
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#4285F4','primaryTextColor':'#fff','primaryBorderColor':'#2a5298','lineColor':'#F8B229','secondaryColor':'#EA4335','tertiaryColor':'#34A853','background':'#ffffff','mainBkg':'#4285F4','secondBkg':'#EA4335','tertiaryBkg':'#34A853'}}}%%
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#4285F4','primaryTextColor':'#fff','primaryBorderColor':'#2a5298','lineColor':'#F8B229','secondaryColor':'#EA4335','tertiaryColor':'#34A853'}}}%%
 mindmap
   root((Dashboard))
     KPI Tracking
@@ -95,6 +126,8 @@ mindmap
       Cross-filtering
 ```
 
+<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="600">
+
 </div>
 
 **Core Capabilities:**
@@ -111,7 +144,22 @@ mindmap
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="100">
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#4285F4','primaryTextColor':'#fff'}}}%%
+graph TD
+    A[📊 KPIs] --> B[💰 Revenue: ₹1.69B]
+    A --> C[📈 RevPAR: ₹7,337]
+    A --> D[🏨 Occupancy: 57.79%]
+    A --> E[💵 ADR: ₹12,696]
+    A --> F[✅ Realization: 70.14%]
+    
+    style A fill:#9334E9,stroke:#fff,stroke-width:3px,color:#fff
+    style B fill:#4285F4,stroke:#fff,stroke-width:2px,color:#fff
+    style C fill:#34A853,stroke:#fff,stroke-width:2px,color:#fff
+    style D fill:#FBBC04,stroke:#fff,stroke-width:2px,color:#000
+    style E fill:#EA4335,stroke:#fff,stroke-width:2px,color:#fff
+    style F fill:#FF6B6B,stroke:#fff,stroke-width:2px,color:#fff
+```
 
 </div>
 
@@ -130,10 +178,6 @@ mindmap
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="100">
-<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="100">
-<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="100">
-
 ![Main Dashboard](https://github.com/drvsaxena/Hospitality-Insights-Dashboard/blob/main/Hospitality-Insights/Screenshots/hotels_report.png?raw=true)
 
 <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
@@ -145,10 +189,6 @@ mindmap
 ## 🏆 Key Achievements
 
 <div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="80" />
-<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="80">
-<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="80" />
 
 ```
 ╔══════════════════════════════════════════════════════╗
@@ -173,7 +213,19 @@ mindmap
 
 ## 💡 Key Insights
 
-<img align="right" alt="Analytics" width="350" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
+<div align="center">
+
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#4285F4'}}}%%
+pie title Revenue Distribution by Booking Platform
+    "Direct Offline" : 40.91
+    "MakeYourTrip" : 19.85
+    "LogTrip" : 18.82
+    "Journey" : 10.34
+    "Direct Online" : 10.08
+```
+
+</div>
 
 - 📌 **Direct Offline** drives 40.91% of revenue (highest channel)
 - 📌 **57.79% Average Occupancy** across all properties
@@ -181,17 +233,9 @@ mindmap
 - 📌 **70.14% Realization** shows room for payment improvement
 - 📌 **Delhi, Mumbai, Hyderabad, Bangalore** are key markets
 
-<br clear="right"/>
-
 ---
 
 ## 🚀 Future Enhancements
-
-<div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100">
-
-</div>
 
 - [ ] 🤖 **Predictive Analytics**: AI-based occupancy forecasting
 - [ ] 💰 **Dynamic Pricing**: Smart rate recommendations
@@ -203,12 +247,6 @@ mindmap
 ---
 
 ## 📁 Project Structure
-
-<div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="100">
-
-</div>
 
 ```
 Hospitality-Insights-Dashboard/
@@ -233,8 +271,6 @@ Hospitality-Insights-Dashboard/
 
 ### ⭐ Star this repo if you found it helpful!
 
-<img src="https://user-images.githubusercontent.com/74038190/216644507-4f06ea29-bf55-4356-aac0-d42751461a9d.gif" width="50">
-
 **Made with Power BI 💙 and DAX magic ✨**
 
-<img src="https://user-images.githubusercontent.com/74038190/213866269-5d00981c-7c98-46d7-8a8e-16f462f15227.gif" width="200">
+</div>
